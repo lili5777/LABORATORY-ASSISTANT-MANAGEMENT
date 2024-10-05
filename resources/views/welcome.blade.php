@@ -52,7 +52,7 @@
                     <div class="flex space-x-4">
                         <a href="#" class="menu-link text-white hover:text-black px-3 py-2 rounded-md">Home</a>
                         <a href="#"
-                            class="menu-link text-white hover:text-black px-3 py-2 rounded-md">Pengumuman</a>
+                            class="menu-link text-white hover:text-black px-3 py-2 rounded-md">Announcement</a>
                         <a href="#" class="menu-link text-white hover:text-black px-3 py-2 rounded-md">Contact</a>
                     </div>
                 </div>
@@ -61,8 +61,7 @@
                 <div class="flex items-center">
                     {{-- <button id="login-btn" class="text-white  px-5 py-2  rounded-xl font-medium">Log In</button> --}}
                     <button id="login-btn"
-                        class="text-white hover:bg-[#c27426] px-5 py-2 bg-[#f49a40] rounded-xl font-medium max-md:hidden">Log
-                        In</button>
+                        class="text-white hover:bg-[#c27426] px-5 py-2 bg-[#f49a40] rounded-xl font-medium max-md:hidden">Log In</button>
                     <button id="menu-btn" class="text-white focus:outline-none ml-3 md:hidden">
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -80,12 +79,11 @@
                 <a href="#"
                     class="menu-link block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md">Home</a>
                 <a href="#"
-                    class="menu-link block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md">Pengumuman</a>
+                    class="menu-link block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md">Announcement</a>
                 <a href="#"
                     class="menu-link block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md">Contact</a>
                 <button id="login-btn"
-                    class="text-white hover:bg-[#416054] px-5 py-2 bg-[#3C3D37] rounded-xl font-medium">Log
-                    In</button>
+                    class="text-white hover:bg-[#416054] px-5 py-2 bg-[#3C3D37] rounded-xl font-medium">log In</button>
             </div>
         </div>
     </nav>
@@ -96,11 +94,11 @@
                 <div class="text-center lg:text-left lg:w-1/2 pt-10 lg:pt-32 lg:pl-32">
                     <h1 class="font-bold text-4xl lg:text-5xl text-[#defaca] pb-3" id="tulis"
                         style="min-height: 60px;"></h1>
-                    <h1 class="font-bold text-4xl lg:text-5xl text-white pb-10">Asisten Labotarium</h1>
+                    <h1 class="font-bold text-4xl lg:text-5xl text-white pb-10">Laboratoty Assistant</h1>
                     <a href="#"
-                        class="border-double border-4 border-white hover:bg-[#c27426] text-white rounded-full px-10 py-2 bg-[#f49a40]">Daftar</a>
+                        class="border-double border-4 border-white hover:bg-[#c27426] text-white rounded-full px-10 py-2 bg-[#f49a40]">Register</a>
                     <a href="#"
-                        class="border-double border-4 border-white hover:bg-[#c27426] text-white rounded-full px-10 py-2 bg-[#f49a40]">Petunjuk</a>
+                        class="border-double border-4 border-white hover:bg-[#c27426] text-white rounded-full px-10 py-2 bg-[#f49a40]">Instruction</a>
                 </div>
                 <div class="w-full lg:w-1/2 grid place-content-center pt-10 lg:pt-10 max-md:hidden">
                     <img src="{{ asset('imge/undipa.png') }}" class="w-48  lg:w-64 mx-auto lg:mx-0" alt="">
@@ -148,12 +146,12 @@
         </div>
     </div>
 
-    <div class="h-[2000px] bg-[#defaca]"></div>
+    <div class="h-[2000px]  bg-gradient-to-b from-[#defaca] to-white"></div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#tulis', {
-            strings: ['Selamat Datang', 'Yok Daftar Menjadi', 'Tingkatkan Skill'],
+            strings: ['Welcome To', 'Upgrade Your Skill', 'Join As'],
             typeSpeed: 50,
             backSpeed: 50,
             loop: true,
